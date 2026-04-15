@@ -1,0 +1,13 @@
+# --- IDE / OS Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+agent/
+agents/
+notes/
+
+# --- Rust Build Files ---
+target
+Cargo.lock
