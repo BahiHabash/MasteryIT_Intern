@@ -1,5 +1,12 @@
 # Day 02:
 
+### Technical Concepts
+* Memory Types (`Data` Vs `Stack` Vs `Heap`)
+* Shadowing
+* Match Operator
+* `if`, `loop`, `match` `blocks {}` can return a value
+* Struct
+* Enums
 
 ### Searched for
 - standart way to format code: found (built in cargo formatter `rustfmt`).
