@@ -8,7 +8,6 @@ fn main() {
     let joined = format!("{}{}", s1, s2);
 
     println!("{joined}");
-
     
     println!("{s1}");
     println!("{s2}");
