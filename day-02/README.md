@@ -14,5 +14,5 @@
 - [Rust Shadowing](https://bhh32.com/tutorials/rust_shadowing_tutorial).
 
 ### Courses & Challenges
-- Completed `Chapter 2` of [tour-of-rust](https://tourofrust.com/TOC_en.html).
+- Completed `Chapter 2 & 3` of [tour-of-rust](https://tourofrust.com/TOC_en.html).
 - Solved a leetcode problem `Valid Parentheses` with rust [LeetCode](https://leetcode.com/submissions/detail/1979668816/) - or see - [The code on github](https://github.com/BahiHabash/LeetCode/tree/ce39029096ba4ac287df98501964b2736b3c969b/0020-valid-parentheses)
