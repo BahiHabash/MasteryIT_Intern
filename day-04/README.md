@@ -17,7 +17,8 @@
 
 
 ### Articles
-- [Rust Ownership and Borrowing Explained](https://dev.to/leapcell/rust-ownership-and-borrowing-explained-22l6).
+- [Understanding Lifetime in Rust](https://dev.to/dsysd_dev/understanding-lifetime-in-rust-123i).
+- [Mastering Lifetimes in Rust: Memory Safety and Borrow Checking](https://dev.to/leapcell/mastering-lifetimes-in-rust-memory-safety-and-borrow-checking-1ge6).
 
 ### Courses & Challenges
 - Completed the `5th chapter` of [tour of rust](https://tourofrust.com/)
