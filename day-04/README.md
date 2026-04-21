@@ -8,6 +8,7 @@
 * `Least Previlege Principle` in Rust.
 * `Dereference`
 * `Life time tagging`, and `'static` life time
+* `Dangling Pointer`
 
 ### Searched for
 * why String in Rust doesn't end with `\0`? 
