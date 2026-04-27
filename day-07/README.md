@@ -5,9 +5,9 @@
 * `Heap Allocated Memory`.
 
 ### Searched for
-* Can a struct implement multiple traits?
-* Can a struct implement a trait partially?
-* does Rust support `ad-hoc polymorphism` ?
+* Rust `impl Trait` vs `dyn Trait` performance
+* Rust lifetimes explained
+* Rust struct with references (lifetime annotations)
 
 ### Courses & Challenges
 - Completed the `8th chapter` of [tour of rust](https://tourofrust.com/)
