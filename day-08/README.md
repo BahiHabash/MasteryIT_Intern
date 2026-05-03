@@ -27,8 +27,8 @@
 ---
 
 ### Articles: 
-[Structuring a Rust Backend](https://medium.com/@rivelbab/rust-actix-web-structuring-and-organizing-an-api-like-a-pro-790657e61ba5)
-[Mastering Large Project Organization in Rust](https://dev.to/leapcell/mastering-large-project-organization-in-rust-n11)
+* [Structuring a Rust Backend](https://medium.com/@rivelbab/rust-actix-web-structuring-and-organizing-an-api-like-a-pro-790657e61ba5)
+* [Mastering Large Project Organization in Rust](https://dev.to/leapcell/mastering-large-project-organization-in-rust-n11)
 
 ---
 
