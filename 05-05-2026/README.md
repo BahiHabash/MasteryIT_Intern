@@ -193,3 +193,15 @@ Need sorted unique values? → BTreeSet
 Need a queue/pipeline?     → VecDeque
 Need text?                 → String / &str
 ```
+
+=============
+
+Rust doesn’t have exceptions. Instead, it has the type Result<T, E> for recoverable errors and the panic! macro that stops execution when the program encounters an unrecoverable error.
+
+- the use of `RUST_BACKTRACE=1` for debugging
+- `unwrap_or` and `unwrap_or_else` for handling errors
+  - `unwrap_or` computes the default value everytime each time even it was Some, hence it is expensive (use this only when the default value is cheap to compute or a literal value)
+  - `unwrap_or_else` computes the default value only when it is None or Err, hence it is efficient (use this only when the default value is expensive to compute or a closure)
+- `RUST_BACKTRACE=1` and `cargo run` for debugging
+- `dotenvy` crate for loading environment variables from a `.env` file
+- `env!` macro for getting environment variables
