@@ -205,3 +205,28 @@ Rust doesn’t have exceptions. Instead, it has the type Result<T, E> for recove
 - `RUST_BACKTRACE=1` and `cargo run` for debugging
 - `dotenvy` crate for loading environment variables from a `.env` file
 - `env!` macro for getting environment variables
+
+---
+
+- `panic!` VS `unwrap()` VS `expect()`
+  - `panic!` will panic
+  - `unwrap()` will panic if the result is `Err` or `None`
+  - `expect()` will panic if the result is `Err` or `None` but it will print the message passed to it
+- `unwrap_or()` and `unwrap_or_else()`
+  - `unwrap_or` computes the default value everytime each time even it was Some, hence it is expensive (use this only when the default value is cheap to compute or a literal value)
+  - `unwrap_or_else` computes the default value only when it is None or Err, hence it is efficient (use this only when the default value is expensive to compute or a closure)
+- `?` VS `match`
+  - `?` operator is used to propagate the error to the caller
+  - `match` is used to handle the error in the caller
+  - `match` is more verbose and flexible but `?` operator is concise and idiomatic in Rust (use this only when the error is to be propagated)
+
+---
+
+- `map()` VS `map_err()`
+  - `map()` transforms the value if `Ok(value)` to `Ok(new_value)`
+  - `map_err()` transforms the error if `Err(error)` to `Err(new_error)`
+
+- `and_then()`
+  - `and_then()` is used to chain two operations that return `Result`
+  - it takes a closure that takes the value from the first `Result` and returns a new `Result`
+  - if the first `Result` is `Err`, it returns the error immediately
