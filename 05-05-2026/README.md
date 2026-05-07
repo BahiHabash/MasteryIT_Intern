@@ -1,4 +1,4 @@
-## Rust Collections — Complete Study Guide
+## Rust Collections — Complete Study Guide 
 
 ---
 
